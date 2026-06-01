@@ -19,7 +19,9 @@ export async function POST(request: Request) {
         // Handle relative URLs by resolving them against the base URL
         try {
           const absoluteUrl = new URL(href, url).href;
-          links.push(absoluteUrl);
+          if (href.includes('fuckingfast')) {
+            links.push(absoluteUrl);
+          }
         } catch {
           // Ignore malformed URLs
         }
