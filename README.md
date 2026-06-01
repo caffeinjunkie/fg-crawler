@@ -36,7 +36,7 @@ Built with **Next.js (App Router)**, **React**, and **Puppeteer**, this tool byp
    npm install
    ```
 
-   # This will also install the necessary local Chromium binaries for Puppeteer
+This will also install the necessary local Chromium binaries for Puppeteer
 
 3. **Start the development server:**
 
