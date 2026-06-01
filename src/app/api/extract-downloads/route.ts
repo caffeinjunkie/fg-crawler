@@ -64,6 +64,7 @@ export async function POST(req: Request) {
 
     return NextResponse.json({ directLinks });
   } catch (error) {
-    return NextResponse.json({ error: error }, { status: 500 });
+    console.error(error);
+    return NextResponse.json({ error: error instanceof Error ? error.message : String(error) }, { status: 500 });
   }
 }
