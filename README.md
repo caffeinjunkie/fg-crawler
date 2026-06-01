@@ -25,8 +25,8 @@ Built with **Next.js (App Router)**, **React**, and **Puppeteer**, this tool byp
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/yourusername/archive-crawler.git](https://github.com/yourusername/archive-crawler.git)
-   cd archive-crawler
+   git clone https://github.com/caffeinjunkie/fg-crawler.git
+   cd fg-crawler
 
    ```
 
