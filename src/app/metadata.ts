@@ -24,11 +24,5 @@ export const siteMetadata: Metadata = {
     ],
     locale: 'en_US',
     type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'My Application',
-    description: 'A high-performance application built with TypeScript.',
-    creator: '@yourhandle',
-  },
+  }
 };

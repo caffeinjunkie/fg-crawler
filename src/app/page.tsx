@@ -1,5 +1,8 @@
 import { Suspense } from "react";
 import { Client } from "./components/Client";
+import { siteMetadata } from "./metadata";
+
+export const metadata = siteMetadata;
 
 export default function LinkCrawler() {
   return (
