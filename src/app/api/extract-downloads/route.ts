@@ -64,6 +64,6 @@ export async function POST(req: Request) {
 
     return NextResponse.json({ directLinks });
   } catch (error) {
-    return NextResponse.json({ error: "Automation failed" }, { status: 500 });
+    return NextResponse.json({ error: error }, { status: 500 });
   }
 }
